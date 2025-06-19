@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grizzstorm</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <img src="assets/img/Gr_logo.png" alt="Grizzstorm main logo">
+            <nav class="nav-web">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="competitions.html">COMPETITIONS</a></li>
+                    <li><a href="athletes.html">ATHLETES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <nav class="nav-responsive">
+                <div class="menu-toggle" tabindex="0">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="competitions.html">COMPETITIONS</a></li>
+                    <li><a href="athletes.html">ATHLETES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section class="hero-section">
+            <div class="motto">
+                <div class="motto-text">
+                    <h2>UNLEASH THE ROAR</h2>
+                    <h2>RIDE THE STORM</h2>
+                    <p>We don’t chase the storm. We are the storm. Precision is power.</p>
+                    <p>Style is silence. Drop in with purpose, hit hard,</p>
+                    <p>and leave nothing but the line.</p>
+                    <form action="athletes.html" target="_blank" class="butt-layer">
+                        <button type="button" class="button button1"></button>
+                        <button type="button" class="button button2"></button>
+                        <div class="hover-group">
+                            <button type="button" class="button button3"></button>
+                            <button type="submit" class="button button4">MEET THE LEGENDS </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="intro">
+        <div class="intro1">
+            <div class="video"> <video id="myVideo" width="640" height="360" poster="assets/img/VIDEO_CAP.jpg">
+                    <source src="assets/video/grizzstorm.MOV" type="video/mp4">
+                    Tu navegador no soporta video HTML5.
+                </video>
+                <button id="playBtn">▶</button>
+
+            </div>
+            <div class="intro-snowboard">
+                <div class="intro-text">
+                    <p>
+                        <strong>Grizzstorm</strong> was born in the silence that comes before the drop. It’s not about
+                        noise
+                        or spectacle—it’s about control, precision, and the pure focus that snowboarding demands when
+                        the
+                        mountain is raw and real.<br><br>
+                        We design for riders who move with <strong>intention</strong>. No distractions, no clutter. Just
+                        clean lines, clear gear, and the kind of quiet confidence that only comes from knowing exactly
+                        why
+                        you're here.<br><br>
+                        This isn’t hype. It’s a storm beneath the surface—<strong>measured, sharp, and always moving
+                            forward</strong>.
+                    </p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/grizzstorm" class="logo logo1" target="_blank"
+                        aria-label="Facebook"></a>
+                    <a href="https://www.instagram.com/grizzstorm" class="logo logo2" target="_blank"
+                        aria-label="Instagram"></a>
+                    <a href="https://twitter.com/grizzstorm" class="logo logo3" target="_blank" aria-label="Twitter"></a>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="intro2">
+            <div class="intro2-lay">
+                <div class="intro2-text">
+                    <h3>GEAR MADE TO MOVE</h3>
+                    <p>
+                        From <strong>storm-ready outerwear</strong> to <strong>off-mountain staples</strong>, every
+                        piece is
+                        built with intention. No clutter, no compromise—just clean, functional gear for those who ride
+                        with
+                        focus and live with purpose, on snow or beyond it.<br><br>
+                        <strong>Ride it. Wear it. Live it.</strong><br><br>
+                    </p>
+
+                </div>
+            </div>
+            <div class="bearded"></div>
+        </div>
+        <div class="intro3">
+            <div class="carousel-container">
+                <button class="scroll-btn left" onclick="scrollCarousel(-1)">&#9664;</button>
+
+                <div class="products" id="carousel">
+                    <div class="card">
+                        <img src="assets/img/merchan_tabla.png" alt="tabla marca grizzstorm">
+                        <p>LINE MARK - Backcountry 158 <br> 549.00€</p>
+                        <form action="#tienda/lm_backcountry" target="_blank" class="butt-layer">
+                            <button type="button" class="button button1"></button>
+                            <button type="button" class="button button2"></button>
+                            <div class="hover-group">
+                                <button type="button" class="button button3"></button>
+                                <button type="submit" class="button button4">ADD TO CART </button>
+                            </div>
+                        </form>
+
+                    </div>
+
+
+                    <div class="card">
+                        <img src="assets/img/merchan_tabla_powell.png" alt="producto grizzstorm">
+                        <p>CLAYMORE – POWELL EDITION <br> 749.00€</p>
+                        <form action="#tienda/claymore_powell" target="_blank" class="butt-layer">
+                            <button type="button" class="button button1"></button>
+                            <button type="button" class="button button2"></button>
+                            <div class="hover-group">
+                                <button type="button" class="button button3"></button>
+                                <button type="submit" class="button button4">ADD TO CART </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/merchan_tabla_kokomo.png" alt="producto grizzstorm">
+                        <p>WIDE GRIZZ - KOKOMO EDITION <br> 779.00€</p>
+                        <form action="#tienda/wd_kokomo" target="_blank" class="butt-layer">
+                            <button type="button" class="button button1"></button>
+                            <button type="button" class="button button2"></button>
+                            <div class="hover-group">
+                                <button type="button" class="button button3"></button>
+                                <button type="submit" class="button button4">ADD TO CART </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/merchan_gorra.png" alt="producto grizzstorm">
+                        <p>RIDGE SNAP – Flat SP Classic <br> 39.00€</p>
+                        <form action="#tienda/ridge_flat" target="_blank" class="butt-layer">
+                            <button type="button" class="button button1"></button>
+                            <button type="button" class="button button2"></button>
+                            <div class="hover-group">
+                                <button type="button" class="button button3"></button>
+                                <button type="submit" class="button button4">ADD TO CART </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/merchan_anorak.png" alt="producto grizzstorm">
+                        <p>STORM SHELL - Anorak 3L Pro <br> 199.00€</p>
+                        <form action="#tienda/storm_hell" target="_blank" class="butt-layer">
+                            <button type="button" class="button button1"></button>
+                            <button type="button" class="button button2"></button>
+                            <div class="hover-group">
+                                <button type="button" class="button button3"></button>
+                                <button type="submit" class="button button4">ADD TO CART </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/merchan_mochila.png" alt="producto grizzstorm">
+                        <p>Storm Pack 22L – Avalanche Ready <br> 99.00€</p>
+                        <form action="#tienda/avalanche" target="_blank" class="butt-layer">
+                            <button type="button" class="button button1"></button>
+                            <button type="button" class="button button2"></button>
+                            <div class="hover-group">
+                                <button type="button" class="button button3"></button>
+                                <button type="submit" class="button button4">ADD TO CART </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <img src="assets/img/merchan_tabla_thunder.png" alt="producto grizzstorm">
+                        <p>LINE MARK - Grizzly Thunder Ed.<br> 565.00€</p>
+                        <form action="#tienda/lm_gthunder" target="_blank" class="butt-layer">
+                            <button type="button" class="button button1"></button>
+                            <button type="button" class="button button2"></button>
+                            <div class="hover-group">
+                                <button type="button" class="button button3"></button>
+                                <button type="submit" class="button button4">ADD TO CART </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/merchan_casco.png" alt="producto grizzstorm">
+                        <p>GRIZZ GUARD – Thunder Edition Helmet.<br> 169.00€</p>
+                        <form action="#tienda/gguard_thunder" target="_blank" class="butt-layer">
+                            <button type="button" class="button button1"></button>
+                            <button type="button" class="button button2"></button>
+                            <div class="hover-group">
+                                <button type="button" class="button button3"></button>
+                                <button type="submit" class="button button4">ADD TO CART </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/merchan_hoodie.png" alt="producto grizzstorm">
+                        <p>STORM LINE – Performance Hoodie.<br> 69.00€</p>
+                        <form action="#tienda/" target="_blank" class="butt-layer">
+                            <button type="button" class="button button1"></button>
+                            <button type="button" class="button button2"></button>
+                            <div class="hover-group">
+                                <button type="button" class="button button3"></button>
+                                <button type="submit" class="button button4">ADD TO CART </button>
+                            </div>
+                        </form>
+                    </div>
+
+
+
+                </div>
+
+                <button class="scroll-btn right" onclick="scrollCarousel(1)">&#9654;</button>
+            </div>
+
+        </div>
+        <div class="newsletter">
+            <h3>NO SPAM, JUST STORM</h3>
+            <p>
+                <strong>Subscribe to the Grizzstorm newsletter</strong> for limited drops, raw footage, and sharp
+                updates from the snow. No fluff, no noise—just the essentials for those who <strong>ride with
+                    intention</strong>. <strong>Stay in the loop, ride ahead.</strong>
+            </p>
+            <form action="/subscribe" target="_blank" class="butt-layer">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="button" class="button button1"></button>
+                <button type="button" class="button button2"></button>
+                <div class="hover-group">
+                    <button type="button" class="button button3"></button>
+                    <button type="submit" class="button button4">SUBMIT </button>
+                </div>
+            </form>
+
+
+        </div>
+
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="follow">
+                <h3>FOLLOW THE STORM</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/grizzstorm" class="logo logo1" target="_blank"
+                        aria-label="Facebook"></a>
+                    <a href="https://www.instagram.com/grizzstorm" class="logo logo2" target="_blank"
+                        aria-label="Instagram"></a>
+                    <a href="https://twitter.com/grizzstorm" class="logo logo3" target="_blank" aria-label="Twitter"></a>
+                    </a>
+                </div>
+                <a href="#privacy-policy" class="footer-link">Privacy & Cookies Policy</a>
+
+            </div>
+            <img src="assets/img/Gr_logo_footer.png" alt="logo grizzstorm">
+            <div class="nav-footer">
+                <nav class="nav-web">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="competitions.html">COMPETITIONS</a></li>
+                        <li><a href="athletes.html">ATHLETES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <p>Copyright © 2024 Grizzstorm. All rights reserved.</p>
+
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+<script src="assets/nav.js"></script>
+
+<script src="assets/script.js"></script>
+
+
+</html>
